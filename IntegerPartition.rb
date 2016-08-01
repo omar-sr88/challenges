@@ -24,8 +24,7 @@ class IntegerPartition
 
 	            @@particoes.push(atual);
 	    end
-
-
+	    
         i = [max, target].min
         while i >= 1
         	@@ident.times { printf "\t"} 
