@@ -26,7 +26,7 @@ end
 
 #increment the param, no need for whole list memory
 def fibo_fast(last, current, n)
-  n == 0 ? a : fib_r(current, last + current, n - 1)
+  n == 0 ? last : fibo_fast(current, last + current, n - 1)
 end
 
 def fibo(n)
@@ -42,7 +42,8 @@ end
 
 
 
-puts fib(5)
+puts fibo(6)
+#printFibo(5)
 # fibo_memory(1500)
 
 # fibo_interactive(1)
