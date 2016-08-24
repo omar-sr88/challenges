@@ -23,8 +23,12 @@ def comprimir(string)
   puts retorno
 end
 
+def clock_single(grau)
+	
+  
+end
 
-def print_all(grau) 
+def clock_pre_list(grau) 
   grau = grau.to_f
   list = {}
   list_h = {}
@@ -121,4 +125,4 @@ def diferenca
    puts pairs.join(" ")
 end
 
-print_all(179)
+clock_pre_list(179)
