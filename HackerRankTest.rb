@@ -125,4 +125,4 @@ def diferenca
    puts pairs.join(" ")
 end
 
-clock_pre_list(179)
+clock_pre_list(181)
