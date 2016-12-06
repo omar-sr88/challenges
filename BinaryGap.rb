@@ -1,4 +1,4 @@
-def binary_gap(n)
+def binary_gap( n )
   remainder,max_streak = 0,streak=0
   while n != 0
   	remainder = n % 2
