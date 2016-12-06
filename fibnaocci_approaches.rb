@@ -43,7 +43,7 @@ end
 
 
 puts fibo(6)
-#printFibo(5)
+printFibo(5)
 # fibo_memory(1500)
 
 # fibo_interactive(1)
