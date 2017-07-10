@@ -5,6 +5,8 @@ def rot13(secret_messages)
 	}
 end
 
+
+#test github
 def rot
 	entries = gets.split(" ")
 	entries.map!{|x| x.to_i}
