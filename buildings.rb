@@ -4,6 +4,7 @@ heights = gets.split(' ').map(&:to_i)
 m = gets.to_i
 p = gets.split(' ').map(&:to_i)
 
+
 sum = 0
 last = 1
 p.each do |pos|
